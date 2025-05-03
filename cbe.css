@@ -196,6 +196,7 @@ table{
 			padding: 20px 0;
 			width: 50px;
 			height: 100px;
+			object-fit:cover;
 			
 			
 		}
