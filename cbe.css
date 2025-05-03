@@ -209,3 +209,8 @@ table{
 			object-fit: cover;      /* Ensures image fills circle */
 			border-radius: 50%;     /* Makes it a circle */
 		}
+
+#margin{
+	padding:30px 20px;
+}
+	
