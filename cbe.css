@@ -203,9 +203,8 @@ table{
 		.img:hover{
 			transform: scale(1.1);
 			filter: brightness(110%) drop-shadow(2px 4px 6px gray);
-			transition: all 0.3s ease;
+			transition: transform 0.3s ease;
 			cursor: pointer;
 			object-fit: cover;      /* Ensures image fills circle */
 			border-radius: 50%;     /* Makes it a circle */
-			transition: all 0.3s ease;
 		}
