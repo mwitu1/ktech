@@ -1,0 +1,211 @@
+body{
+	background-color:#97d2ef;
+
+	}
+
+
+table{
+	border-colapse:colapse;
+	width:100%;
+	border:;
+	align:center;
+	cellpadding:4px;   
+	text-align:left;
+	margin:2px 2px 2px 2px;
+	cellspacing:1px;
+	}
+
+
+#im{
+	position:relative;
+	top:10px;
+	padding-left:20px;
+	width:150px;
+	height:150px;
+	}
+
+#ceo{
+	padding-left:20px;
+	padding-top:0px;
+	color:#000000;
+	font-family:;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1;
+	font-variant:normal;
+	}
+
+#c{
+	
+	padding-left:20px;
+	padding-top:10px;
+	color:#000020;
+	font-family:;
+	font-size:2rem;
+	font-style:normal;
+	font-weight:bold;
+	line-height:0.1;
+	font-variant:normal;
+	}
+#oc{
+	align:top-left;
+	padding-left:40px;
+	padding-top:0px;
+	color:#0000ff;
+	font-family:;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	}
+
+#related{
+	padding-left:20px;
+	padding-top:10px;
+	color:#000000;
+	font-family:;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1;
+	font-variant:normal;
+	}
+
+#td{
+	text-align:left;
+	vertical-align:top;
+	}
+
+#heading{
+
+	color:#0000ff;
+	font-family:;
+	font-size:2.5rem;
+	font-style:normal;
+	font-weight:bold;
+	font-variant:normal;
+	}
+
+#under{
+		text-decoration:none;
+		color:blue;
+		hover-color:red;
+	}
+
+#under:hover{
+		color:red;
+		}
+
+
+
+
+/*for login */
+
+
+
+ log {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Container for the form */
+        #container {
+            margin: 0 auto;
+            background-color: #97d2ef;
+            padding: 30px 521px ;
+            
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Heading styling */
+        #h {
+            	text-align: center;
+            	color: #ff0000;
+				font-size:2.1rem;
+				font-weight:bold;
+        }
+
+	button {
+            	background-color: #0000ff;
+				font-family: Arial, sans-serif;
+            	color: white;
+				font-weight:bold;
+				font-size:1.4rem;
+				margin: 9px 0px;
+            	padding: 12px 21px;
+            	border: none;
+            	border-radius: 5px;
+            	cursor: pointer;
+            	width: 18%;
+				top:20px;
+				bottom:20px;
+				text-align: center;
+				margin: 0 auto;
+				display: block;
+        }
+
+
+
+        label {
+            	display: block;
+            	font-weight: bold;
+				font-size:1.2rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        input[type="password"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 11px;
+	    font-size:1rem;
+            margin: 10px 0px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+
+        button:hover {
+            background-color: #ff0000;
+        }
+
+
+
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+
+        /* Hide login form by default */
+        #login-form {
+            display: none;
+        }
+		.foot{
+			display: flex;
+			justify-content: center;
+			gap: 30px;
+			padding: 20px 0;
+			width: 50px;
+			height: 100px;
+			
+			
+		}
+
+		.img:hover{
+			transform: scale(1.1);
+			filter: brightness(110%) drop-shadow(2px 4px 6px gray);
+			transition: all 0.3s ease;
+			cursor: pointer;
+			object-fit: cover;      /* Ensures image fills circle */
+			border-radius: 50%;     /* Makes it a circle */
+			transition: all 0.3s ease;
+		}
